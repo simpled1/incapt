@@ -50,7 +50,7 @@ You can also change the font color, underline, italicized, strikeThrough, add bg
 
 ![This is the custom styling screenshots](/assets/options.png "with custom styling")
 
-The pinkish dot on the left is styled using the **mc** property, the prompt color is styled in green using **pc** property, the output is in italic using **mod** property, the bgColor is in white using **bg** property and finally the font color is in cyan using the **c** property
+The pinkish dot on the left is styled using the *mc* property, the prompt color is styled in green using *pc* property, the output is in italic using *mod* property, the bgColor is in white using *bg* property and finally the font color is in cyan using the *c* property
 
 # Available options
 
