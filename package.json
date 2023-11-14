@@ -19,5 +19,6 @@
   "files": ["dist"],
   "devDependencies": {
     "parcel": "^2.10.2"
-  }
+  },
+  "bug": "https://github.com/simpled1/incapt/issues"
 }
