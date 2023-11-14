@@ -1,6 +1,6 @@
 {
   "name": "incapt",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A simple package for handling user input",
   "main": "dist/index.js",
   "scripts": {
