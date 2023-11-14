@@ -1,6 +1,6 @@
 {
   "name": "incapt",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A simple package for handling user input",
   "main": "dist/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "chalk": "^4.1.2"
   },
   "files": [
-    "dist"
+    "index.js"
   ],
   "bug": {
     "url": "https://github.com/simpled1/incapt/issues"
