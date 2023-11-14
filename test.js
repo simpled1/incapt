@@ -1,4 +1,4 @@
-const index = require("./index")
+const index = require('./index')
 
 const { I, C } = index;
 
@@ -6,8 +6,8 @@ const { I, C } = index;
 async function run() {
 
     // Test 1 : Placeholder testing 
-    const a = await I("What is your name? ");
-    const b = await I("What is your age? ") 
+    const a = await I('What is your name? ');
+    const b = await I('What is your age? ') 
 
     console.log( `My name is ${a}. I am ${b} years old` )
 
@@ -17,7 +17,7 @@ async function run() {
     console.log( `Sum is ${+x + +y}` )
 
     // Test : thenables
-    await I("What is your hobbby? ")
+    await I('What is your hobbby? ')
         .then(val => console.log(`My hobby is ${val}.`))
 
     // with options

@@ -30,8 +30,8 @@ const rl = readline.createInterface({
  * console.log('User input:', userInput);
  * 
  * // example 2
- * const a = await I("What is your name? ");
- * const b = await I("What is your age? ") 
+ * const a = await I('What is your name? ');
+ * const b = await I('What is your age? ') 
  * console.log( `My name is ${a}. I am ${b} years old` )
  * 
  * // example 3
@@ -40,7 +40,7 @@ const rl = readline.createInterface({
  * console.log( `Sum is ${+x + +y}` )
  * 
  * // example 4 using thenables:
- * await I("What is your hobbby? ")
+ * await I('What is your hobbby? ')
         .then(val => console.log(`My hobby is ${val}.`))
  */
 async function I(prompt, options = {}) {
