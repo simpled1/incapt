@@ -1,0 +1,23 @@
+{
+  "name": "incapt",
+  "version": "1.0.0",
+  "description": "A simple package for handling user input",
+  "main": "dist/index.js",
+  "source": "index.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "test": "node test.js",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "keywords": ["string", "input", "readline", "node", "incapt"],
+  "author": "simpled1 simpledev350@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "files": ["dist"],
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
+}
