@@ -1,14 +1,10 @@
 {
   "name": "incapt",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A simple package for handling user input",
   "main": "dist/index.js",
-  "source": "index.js",
-  "module": "dist/module.js",
   "scripts": {
-    "test": "node test.js",
-    "watch": "parcel watch",
-    "build": "parcel build"
+    "test": "node test.js"
   },
   "keywords": [
     "string",
@@ -23,11 +19,13 @@
     "chalk": "^4.1.2"
   },
   "files": [
-    "dist",
-    "assets"
+    "dist"
   ],
-  "devDependencies": {
-    "parcel": "^2.10.2"
+  "bug": {
+    "url": "https://github.com/simpled1/incapt/issues"
   },
-  "bug": "https://github.com/simpled1/incapt/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpled1/incapt"
+  }
 }
