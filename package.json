@@ -1,7 +1,7 @@
 {
   "name": "incapt",
-  "version": "1.2.4",
-  "description": "A simple package for handling user input",
+  "version": "1.2.5",
+  "description": "A simple package for capturing user input",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"

@@ -5,7 +5,7 @@ A simple package for handling user input
 # Install
 
 ```npm
-npm install incapt
+npm install -D incapt
 ```
 
 # Usage
@@ -50,7 +50,7 @@ run();
 // All of the input session should happen before C() call
 ```
 
-# options
+# Options
 
 You can also change the font color, underline, italicized, strikeThrough, add bgColor, change prompt color and change the marker color as well.
 
@@ -100,3 +100,5 @@ The pinkish dot on the left is styled using the _mc_ property, the prompt color 
 "strikethrough";
 // modifier can only be used on the mod property
 ```
+# Notes
+Please use the package from version 1.2.4 onwards, as the previous versions have bugs.
